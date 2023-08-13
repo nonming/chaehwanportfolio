@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>포폴</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/common.css" />
+  <link rel="stylesheet" href="./css/med.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/galmuri/dist/galmuri.css">
+</head>
+
+<body id="wrap">
+  <div class="intro">
+    <div class="logo">
+      <a href="#" onclick="button_click()">
+        <img src="./img/logo co.png" alt="" />
+      </a>
+    </div>
+    <p>CLICK TO START</p>
+  </div>
+  <main>
+    <div class="main">
+      <p class="name"></p>
+      <section class="first_manu">
+        <a href="#" onclick="button_click()" class="blue_po img-box"><img class="img" src="./img/blue.png" alt="" /><img
+            class="img-hover" src="./img/blue-hover.png" alt="">
+          <p>profile</p>
+        </a>
+        <a href="#" onclick="button_click()" class="red_po img-box"><img class="img" src="./img/red.png" alt="" />
+          <img class="img-hover" src="./img/red-hover.png" alt="">
+          <p>portfolio</p>
+        </a>
+        <a href="#" onclick="button_click()" class="purple_po img-box"><img class="img" src="./img/purple.png" alt="" />
+          <img class="img-hover" src="./img/purple-hover.png" alt="">
+          <p>contact</p>
+        </a>
+      </section>
+      <section>
+        <span class="search">
+          <input type="search" required="HANCHAEHWAN">
+          <img src="./img/window.png" alt="">
+        </span>
+        <p class="cat"></p>
+      </section>
+    </div>
+    <section class="popup">
+      <div class="pop_top">
+        <div>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <h2>MAIN LIST
+        </h2>
+        <div class="close" onclick="button_click()">X</div>
+      </div>
+      <div class="main_pol">
+        <a href="#" onclick="button_click()" class="visual img-box"><img class="img" src="./img/leaflet.png" alt="">
+          <img class="img-hover" src="./img/leaflet-hover.png" alt="">
+          <p>visual design</p>
+        </a>
+        <a href="#" onclick="button_click()" class="video img-box"><img class="img" src="./img/logo.png" alt="">
+          <img class="img-hover" src="./img/logo-hover.png" alt="">
+          <p> video design</p>
+        </a>
+        <a href="#" onclick="button_click()" class="coding img-box"><img class="img" src="./img/sky-blue.png" alt="">
+          <img class="img-hover" src="./img/sky-blue-hover.png" alt="">
+          <p>coding</p>
+        </a>
+      </div>
+    </section>
+    <!--프로필-->
+    <section class="popup_pro">
+      <div class="pop_top">
+        <div>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <h2>profile
+        </h2>
+        <div class="close" onclick="button_click()">X</div>
+      </div>
+      <div class="popup_profile">
+        <a href="#" onclick="button_click()"><img src="./img/ID Photo.jpg" alt="" class="click_img">
+          <p>click to image</p>
+        </a>
+        <ul>
+          <li>
+            <h1>PROFILE</h1>
+          </li>
+          <li>name : 한채환</li>
+          <li>age : 25</li>
+          <li>education : 동국대학교 경주 캠퍼스</li>
+          <li>e-mail : mms05021@naver.com</li>
+          <li>phone : 010-5640-5663</li>
+        </ul>
+      </div>
+      <!-- 프로필 세부 -->
+      <section class="profile_details">
+        <div class="pop_top">
+          <div>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <h2>profile details
+          </h2>
+          <div class="close" onclick="button_click()">X</div>
+        </div>
+        <div class="POP_PRO">
+          <p class="About_Me">
+            <br>저의 영상과의 우연을 인연으로
+            <br>바꾸는 영상 디자이너를
+            <br>목표로하겠습니다.
+            <br>
+            <br class="use_pr">사용가능 프로그램
+          </p>
+          <img src="./img/Photoshop.svg" alt="">
+          <img src="./img/illustration.svg" alt="">
+          <img src="./img/premiere pro.svg" alt="">
+          <img src="./img/After Effects.svg" alt="">
+          <img class="visual_studio" src="./img/visual studio.svg" alt="">
+          <img src="./img/figma.png" alt="">
+        </div>
+      </section>
+    </section>
+    <!-- 컨택트 -->
+    <section class="popup_con">
+      <div class="pop_top">
+        <div>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <h2>contact
+        </h2>
+        <div class="close" onclick="button_click()">X</div>
+      </div>
+      <div class="popup_contact">
+        <div class="popup_contact_menu">
+          <img src="./img/pagman.gif" alt="">
+          <a href="mailto:mms05021@gmail.com">메일보내기 <p>click</p></a>
+        </div>
+      </div>
+      <!-- 디자인목록 -->
+    </section>
+    <section class="popup2">
+      <div class="pop_top">
+        <div>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <h2>second LIST
+        </h2>
+        <div class="close" onclick="button_click()">X</div>
+      </div>
+      <div class="second_pol">
+        <a href="#" onclick="button_click()" class="character img-box"><img class="img" src="./img/character.png"
+            alt="">
+          <img class="img-hover" src="./img/character-hover.png" alt="">
+          <p>character</p>
+        </a>
+        <a href="#" onclick="button_click()" class="logo_munu img-box"><img class="img" src="./img/logo.png" alt="">
+          <img class="img-hover" src="./img/logo-hover.png" alt="">
+          <p>logo</p>
+        </a>
+        <a href="#" onclick="button_click()" class="leaflet img-box"><img class="img" src="./img/leaflet.png" alt="">
+          <img class="img-hover" src="./img/leaflet-hover.png" alt="">
+          <p>leaflet</p>
+        </a>
+        <a href="#" onclick="button_click()" class="package img-box"><img class="img" src="./img/package.png" alt="">
+          <img class="img-hover" src="./img/package-hover.png" alt="">
+          <p>package</p>
+        </a>
+        <a href="#" onclick="button_click()" class="advertisement img-box"><img class="img" src="./img/sky-blue.png"
+            alt="">
+          <img class="img-hover" src="./img/sky-blue-hover.png" alt="">
+          <p class="adv_p">advertisement</p>
+        </a>
+      </div>
+      <!-- article (비쥬얼 시작) -->
+      <!-- 캐릭터 -->
+      <article class="character_pol">
+        <div class="character_des">
+          <div>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <h2>character
+          </h2>
+          <div class="close" onclick="button_click()">X</div>
+        </div>
+        <div class="portfolio1"><img src="./img/character design.jpg" alt=""></div>
+      </article>
+      <!-- 로고 -->
+      <article class="logo_pol">
+        <div class="logo_des">
+          <div>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <h2>logo
+          </h2>
+          <div class="close" onclick="button_click()">X</div>
+          <div class="portfolio1"><img src="./img/business card design.jpg" alt=""></div>
+        </div>
+      </article>
+      <!-- 리플렛 -->
+      <article class="leaflet_pol">
+        <div class="leaflet_des">
+          <div>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <h2>leaflet
+          </h2>
+          <div class="close" onclick="button_click()">X</div>
+          <div class="portfolio1"><img src="./img/brochure design.jpg" alt=""></div>
+        </div>
+      </article>
+      <!-- 패키지 -->
+      <article class="package_pol">
+        <div class="package_des">
+          <div>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <h2>package
+          </h2>
+          <div class="close" onclick="button_click()">X</div>
+          <div class="portfolio1"><img src="./img/Package design.jpg" alt=""></div>
+        </div>
+      </article>
+      <!-- 광고 디자인 -->
+      <article class="advertisement_pol">
+        <div class="advertisement_des">
+          <div>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <h2>package
+          </h2>
+          <div class="close" onclick="button_click()">X</div>
+          <div class="portfolio1"><img src="./img/advertising design.jpg" alt=""></div>
+        </div>
+      </article>
+    </section>
+    <!-- 영상 디자인 -->
+    <section class="video2">
+      <div class="pop_top">
+        <div>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <h2>video
+        </h2>
+        <div class="close" onclick="button_click()">X</div>
+      </div>
+      <!-- <a href="#" onclick="button_click()" class="advertisement img-box"><img class="img" src="./광고 디자인.png" alt="">
+      <img src="./sky-blue-hover.png" alt=""> -->
+      <div class="video_manu">
+        <a href="#" onclick="button_click()" class="advertising_design img-box"><img class="img"
+            src="./img/conding.png" alt="">
+          <img class="img-hover" src="./img/coding-hover.png" alt="">
+          <p>advertising design</p>
+        </a>
+        <a href="#" onclick="button_click()" class="guide_po img-box"><img class="img" src="./img/sky-blue s.png" alt="">
+          <img class="img-hover" src="./img/sky-blue-hover s.png" alt="">
+          <p class="guide_video">twin effect</p>
+        </a>
+        <a href="#" onclick="button_click()" class="motion_graphics img-box"><img class="img" src="./img/vidoe.png"
+            alt="">
+          <img class="img-hover" src="./img/vidoe-hover.png" alt="">
+          <p>motion graphics</p>
+        </a>
+        <a href="#" onclick="button_click()" class="my_youtube img-box"><img class="img" src="./img/youtube icon.png" alt="">
+          <img class="img-hover" src="./img/youtube icon-hover.png" alt="">
+          <p>MY youtube</p>
+        </a>
+      </div>
+    </section>
+    <!-- 광고 -->
+    <article class="adv_design">
+      <div class="adv_video">
+        <div>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <h2>advertisement
+        </h2>
+        <div class="close" onclick="button_click()">X</div>
+        <div class="portfolio1">
+          <div>
+            <iframe src="https://www.youtube.com/embed/rh9UUZMG9sM" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </article>
+    <!-- 가이드 -->
+    <article class="guide_video1">
+      <div class="guide_video2">
+        <div>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <h2>twin effect
+        </h2>
+        <div class="close" onclick="button_click()">X</div>
+        <div class="portfolio1">
+          <div>
+            <iframe src="https://www.youtube.com/embed/sz_V0dePxG4" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      </div>
+    </article>
+    <!-- 모션 그래픽 -->
+    <article class="mot">
+      <div class="mot_video">
+        <div>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <h2>motion graphics
+        </h2>
+        <div class="close" onclick="button_click()">X</div>
+        <div class="portfolio1">
+          <div>
+            <iframe src="https://www.youtube.com/embed/jkFM8CoHaeI" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      </div>
+    </article>
+    <!-- 유튜브 -->
+    <!-- <article class="my">
+      <div class="my_youtube2">
+        <div>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <h2>advertisement
+        </h2>
+        <div class="close" onclick="button_click()">X</div>
+        <div class="portfolio1">
+          <div>
+            <iframe src="https://www.youtube.com/channel/UCKFWrZb3pEiWt8STtUJX-Og" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      </div>
+    </article> -->
+    <article class="my">
+      <div class="my_youtube2">
+        <div>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <h2>coding
+        </h2>
+        <div class="close" onclick="button_click()">X</div>
+      </div>
+      <div class="portfolio1"><iframe class="my_youtube3" src="https://www.youtube.com/embed/7aEdkN3SGxw"
+          frameborder="0"></iframe>
+      </div>
+    </article>
+
+    <!-- 코딩 -->
+    <article class="coding_pol">
+      <div class="coding_des">
+        <div>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <h2>coding
+        </h2>
+        <div class="close" onclick="button_click()">X</div>
+      </div>
+      <div class="portfolio1"><iframe class="homepag" src="http://mms05021.dothome.co.kr/THEZOO/"
+          frameborder="0"></iframe>
+        <img src="./img/screencapture-mms05021-dothome-co-kr-THEZOO-2023-06-28-16_44_23.png" alt="">
+      </div>
+    </article>
+  </main>
+  <!-- article (비쥬얼 끝) -->
+  <script src="./jquery/jquery-3.7.0.min.js"></script>
+  <script>
+    //인트로
+    $(".intro").click(function () {
+      $(".intro").addClass("on")
+    });
+
+
+    //포트폴리오
+    $(".red_po").click(function () {
+      $(".popup").fadeIn(500);
+    });
+    $(".popup .pop_top .close").click(function () {
+      $(".popup").fadeOut(500);
+    });
+    //프로필
+    $(".blue_po").click(function () {
+      $(".popup_pro").fadeIn(500);
+    });
+    $(".popup_pro .pop_top .close").click(function () {
+      $(".popup_pro").fadeOut(500);
+    });
+    // 프로필 세부
+    $(".click_img").click(function () {
+      $(".profile_details").fadeIn(500);
+    });
+    $(".profile_details .pop_top .close").click(function () {
+      $(".profile_details").fadeOut(500);
+    });
+    //컨택트
+    $(".purple_po").click(function () {
+      $(".popup_con").fadeIn(500);
+    });
+    $(".popup_con .pop_top .close").click(function () {
+      $(".popup_con").fadeOut(500);
+    });
+    //시각디자인
+    $('.visual').click(function () {
+      $('.popup2').fadeIn()
+    })
+    $('.popup2 .pop_top .close').click(function () {
+      $('.popup2').fadeOut()
+    })
+    // 영상 디자인
+    $(".video").click(function () {
+      $(".video2").fadeIn(500);
+    });
+    $(".video2 .pop_top .close").click(function () {
+      $(".video2").fadeOut(500);
+    });
+    // 코딩
+    $(".coding").click(function () {
+      $(".coding_pol").fadeIn(500);
+    });
+    $(".coding_pol .coding_des .close").click(function () {
+      $(".coding_pol").fadeOut(500);
+    });
+    // $(".popup .popup_top>.close").click(function () {
+    //   $(".popup").fadeOut(500);
+    // });
+
+    // $(".red_po").click(function () {
+    //   $(".popup").fadeIn(500); 
+    // });
+    // // <!--시각디자인-->
+
+    // $(".visual").click(function () {
+    //   $(".popup2").fadeIn(500); 
+    // });
+    // $(".popup>.close").click(function () {
+    //   $(".popup2").fadeOut(500);
+    // });
+    // // <!--영상디자인-->
+
+    // $(".video").click(function () {
+    //   $(".popup2").fadeIn(500); 
+    // });
+    // $(".popup2>.close").click(function () {
+    //   $(".popup2").fadeOut(500);
+    // });
+    // //코딩
+
+    // $(".coding").click(function () {
+    //   $(".popup2").fadeIn(500); 
+    // });
+    // $(".popup2>.close").click(function () {
+    //   $(".popup2").fadeOut(500);
+    // });
+    //캐릭터
+
+    // $(".character").click(function () {
+    //   $(".character_pol").fadeIn(500); 
+    // });
+    // $(".character_pol .close").click(function () {
+    //   $(".character_pol").fadeOut(500);
+    // });
+    // if(조건){조건이 참값일때 실행문}else{조건이 거짓일때 실행문}
+    //캐릭터 디자인
+    $('.second_pol a.character').click(function () {
+      if ($(this).hasClass('active') == true) {
+
+        $(this).removeClass('active')
+
+      } else {
+        $(this).addClass('active').siblings().removeClass('active')
+        $(this).parents().siblings('.character_pol').addClass('active')
+      }
+    })
+    $('article .close').click(function () {
+      $(this).parent().parent().removeClass('active').siblings('.second_pol').children('a').removeClass('active')
+
+    })
+    //로고
+    $('.second_pol a.logo_munu').click(function () {
+      if ($(this).hasClass('active') == true) {
+
+        $(this).removeClass('active')
+
+      } else {
+        $(this).addClass('active').siblings().removeClass('active')
+        $(this).parents().siblings('.logo_pol').addClass('active')
+      }
+    })
+    $('article .close').click(function () {
+      $(this).parent().parent().removeClass('active').siblings('.second_pol').children('a').removeClass('active')
+
+    })
+    //리플렛
+    $('.second_pol a.leaflet').click(function () {
+      if ($(this).hasClass('active') == true) {
+
+        $(this).removeClass('active')
+
+      } else {
+        $(this).addClass('active').siblings().removeClass('active')
+        $(this).parents().siblings('.leaflet_pol').addClass('active')
+      }
+    })
+    $('article .close').click(function () {
+      $(this).parent().parent().removeClass('active').siblings('.second_pol').children('a').removeClass('active')
+
+    })
+    // 패키지
+    $('.second_pol a.package').click(function () {
+      if ($(this).hasClass('active') == true) {
+
+        $(this).removeClass('active')
+
+      } else {
+        $(this).addClass('active').siblings().removeClass('active')
+        $(this).parents().siblings('.package_pol').addClass('active')
+      }
+    })
+    $('article .close').click(function () {
+      $(this).parent().parent().removeClass('active').siblings('.second_pol').children('a').removeClass('active')
+
+    })
+    // 광고
+    $('.second_pol a.advertisement').click(function () {
+      if ($(this).hasClass('active') == true) {
+
+        $(this).removeClass('active')
+
+      } else {
+        $(this).addClass('active').siblings().removeClass('active')
+        $(this).parents().siblings('.advertisement_pol').addClass('active')
+      }
+    })
+    $('article .close').click(function () {
+      $(this).parent().parent().removeClass('active').siblings('.second_pol').children('a').removeClass('active')
+
+    })
+
+    // 영상 디자인세부
+    $('.video2 a.advertising_design').click(function () {
+      if ($(this).hasClass('active') == true) {
+
+        $(this).removeClass('active')
+
+      } else {
+        $(this).addClass('active').siblings().removeClass('active')
+        $(this).parents().siblings('.adv_design').addClass('active')
+      }
+    })
+    $('article.adv_design .close').click(function () {
+      $(this).parent().parent().removeClass('active').siblings('.video2').children('.video_manu').children('.advertising_design').removeClass('active')
+
+    })
+    // 쌍둥이(전 가이드) 영상
+    $('.video2 a.guide_po').click(function () {
+      if ($(this).hasClass('active') == true) {
+
+        $(this).removeClass('active')
+
+      } else {
+        $(this).addClass('active').siblings().removeClass('active')
+        $(this).parents().siblings('.guide_video1').addClass('active')
+      }
+    })
+    $('article.guide_video1 .close').click(function () {
+      $(this).parent().parent().removeClass('active').siblings('.video2').children('.video_manu').children('.guide_video1').removeClass('active')
+
+    })
+    
+    // 모션 그래픽
+    $('.video2 a.motion_graphics').click(function () {
+      if ($(this).hasClass('active') == true) {
+
+        $(this).removeClass('active')
+
+      } else {
+        $(this).addClass('active').siblings().removeClass('active')
+        $(this).parents().siblings('.mot').addClass('active')
+      }
+    })
+    $('article.mot .close').click(function () {
+      $(this).parent().parent().removeClass('active').siblings('.video2').children('.video_manu').children('.motion_graphics').removeClass('active')
+
+    })
+    // 유튜브
+    $('.video2 a.my_youtube').click(function () {
+      if ($(this).hasClass('active') == true) {
+
+        $(this).removeClass('active')
+
+      } else {
+        $(this).addClass('active').siblings().removeClass('active')
+        $(this).parents().siblings('.my').addClass('active')
+      }
+    })
+    $('article.my_youtube .close').click(function () {
+      $(this).parent().parent().removeClass('active').siblings('.video2').children('.video_manu').children('.my_youtube').removeClass('active')
+
+    })
+    // 클릭 사운드
+    function button_click() {
+      var audio = new Audio('8bit Click Sound Effect.mp3');
+      audio.play();
+    }
+  // if('.character_pol'){}
+  </script>
+</body>
+
+</html>
