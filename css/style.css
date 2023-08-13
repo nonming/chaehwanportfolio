@@ -1018,7 +1018,7 @@ input img {
   justify-content: space-between;
   align-items: center;
 }
-.portfolio1 img{display: none;}
+.portfolio1 img{}
 .coding_des span {
   display: inline-block;
   width: 20px;
